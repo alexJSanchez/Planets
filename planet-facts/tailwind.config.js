@@ -16,6 +16,10 @@ module.exports = {
       neptune: "#2D68F0",
       hokkaidoLavender: "#6f2ed6",
     },
+    fontFamily: {
+      antonio: "Antonio",
+      leagueSpartan: "League Spartan",
+    },
     extend: {
       backgroundImage: {
         backgroundStars: "url('/src/assets/planet-mars.svg')",
