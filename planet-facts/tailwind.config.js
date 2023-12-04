@@ -22,7 +22,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        backgroundStars: "url('/src/assets/planet-mars.svg')",
+        backgroundStars: "url('/src/assets/background-stars.svg')",
       },
       screens: {
         tablet: "48rem",

@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div>
       <div>
-        <div className="relative flex justify-between tablet:flex-col desktop:flex-row text-center items-center tablet:items-stretch desktop:items-center bg-mysteriousDepth px-6 tablet:px-[3.1875rem] py-4 tablet:pb-[1.6875rem] tablet:pt-[2rem] desktop:py-[2rem]">
+        <div className="relative flex justify-between tablet:flex-col desktop:flex-row text-center items-center tablet:items-stretch desktop:items-center px-6 tablet:px-[3.1875rem] py-4 tablet:pb-[1.6875rem] tablet:pt-[2rem] desktop:py-[2rem]">
           <p className="uppercase text-[#fff] font-antonio text-[1.75rem] tracking-[-0.0656rem] tablet:pb-[2.4375rem] desktop:pb-0">
             The Planets
           </p>
@@ -60,7 +60,7 @@ function Nav() {
         )}{" "}
         <div className="h-[1px] w-full bg-[#fff] opacity-20"> </div>
       </div>
-      <div className="h-[10px] w-full bg-white opacity-20"> </div>
+      <div className="h-[1spx] w-full bg-white opacity-20"> </div>
     </div>
   );
 }
