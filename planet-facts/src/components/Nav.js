@@ -45,10 +45,12 @@ function Nav() {
         </ul>
       </div>
       {dropDown ? (
-        <div className="absolute bg-mysteriousDepth left-0 top-[calc(100% + 0.25rem)] w-full">
-          <div>
-            <div className="bg-[#fff] w-[20px] h-[20px] rounded-[20px]"></div>
+        <div className="absolute flex justify-between items-center bg-mysteriousDepth left-0 top-[calc(100% + 0.25rem)] w-full pt-[2.875rem] pb-[1.25rem] px-6">
+          <div className="flex">
+            <span className="bg-[#fff] w-[20px] h-[20px] rounded-[20px]"></span>
+            <p className="uppercase ml-[1.5625rem] text-[#fff]">Mercury</p>
           </div>
+          <img src={IDBCursor} className="bg-[#fff] w-[4px] h-[8px]" />
         </div>
       ) : (
         ""
