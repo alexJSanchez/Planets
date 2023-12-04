@@ -1,7 +1,7 @@
 import "../App.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { iconHamburger } from "../assets/addImages";
+import { iconHamburger, iconChevron } from "../assets/addImages";
 function Nav() {
   const [dropDown, SetDropDown] = useState(false);
 
@@ -50,7 +50,9 @@ function Nav() {
             <span className="bg-[#fff] w-[20px] h-[20px] rounded-[20px]"></span>
             <p className="uppercase ml-[1.5625rem] text-[#fff]">Mercury</p>
           </div>
-          <img src={IDBCursor} className="bg-[#fff] w-[4px] h-[8px]" />
+          <div>
+            <img src={iconChevron} />
+          </div>
         </div>
       ) : (
         ""
