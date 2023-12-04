@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import { iconHamburger } from "../assets/addImages";
 function Nav() {
   return (
-    <div className="flex justify-between tablet:flex-col text-center bg-mysteriousDepth px-6 py-4 tablet:pt-[2rem]">
+    <div className="flex justify-between tablet:flex-col text-center items-center tablet:items-stretch bg-mysteriousDepth px-6 tablet:px-[3.1875rem] py-4 tablet:pb-[1.6875rem] tablet:pt-[2rem]">
       <p className="uppercase text-[#fff] font-antonio text-[1.75rem] tracking-[-0.0656rem] tablet:pb-[2.4375rem]">
-        The Plantes
+        The Planets
       </p>
       <img
         src={iconHamburger}
         className="bg-white tablet:hidden"
         alt="geologyEarth"
       />
-      <ul className="hidden tablet:block uppercase flex justify-evenly opacity-80 text-[#fff] font-leagueSpartan text-[0.6875rem] font-bold leading-[1.5625rem] tracking-[0.0625rem] py">
+      <ul className="hidden uppercase tablet:flex tablet:justify-between opacity-80 text-[#fff] font-leagueSpartan text-[0.6875rem] font-bold leading-[1.5625rem] tracking-[0.0625rem] py">
         <Link to="/mercury">
           <li>Mercury</li>
         </Link>
