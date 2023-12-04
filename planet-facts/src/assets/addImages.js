@@ -27,6 +27,7 @@ import planetUranusInternal from "./planet-uranus-internal.svg";
 import planetUranus from "./planet-uranus.svg";
 import planetVenusInternal from "./planet-venus-internal.svg";
 import planetVenus from "./planet-venus.svg";
+
 export {
   backgroundStars,
   favicon,
