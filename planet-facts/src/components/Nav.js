@@ -47,111 +47,141 @@ function Nav() {
         </div>
 
         {dropDown ? (
-          <div className="absolute uppercase flex flex-col w-full justify-between bg-mysteriousDepth text-[0.6875rem] px-6 font-bold left-0 top-[calc(100% + 0.25rem)] border-b-2 border-[#fff] border-opacity-20 w-full pt-[2.875rem] px-4 pb-[1.25rem]  ">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-[#fff] w-[20px] h-[20px] rounded-full">
-                  {" "}
+          <div className="absolute uppercase flex flex-col w-full justify-between bg-mysteriousDepth text-[15px] px-6 font-bold left-0 top-[calc(100% + 0.25rem)] border-b-2 border-[#fff] border-opacity-20 w-full pt-[2.875rem] px-4 pb-[1.25rem]  ">
+            <Link to="/mercury">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-[#fff] w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">
+                    Mercury
+                  </p>
                 </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Mercury</p>
-              </div>
-              <div className="">
-                <img src={iconChevron} />
-              </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-venus w-[20px] h-[20px] rounded-full"> </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Venus</p>
-              </div>
-              <div className="">
-                <img src={iconChevron} />
-              </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-earth w-[20px] h-[20px] rounded-full"> </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Earth</p>
-              </div>
-              <div className="">
-                <img src={iconChevron} />
-              </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-mars w-[20px] h-[20px] rounded-full"> </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Mars</p>
-              </div>
-              <div className="">
-                <img src={iconChevron} />
-              </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-jupiter w-[20px] h-[20px] rounded-full">
-                  {" "}
+                <div className="">
+                  <img src={iconChevron} />
                 </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Jupiter</p>
               </div>
-              <div className="">
-                <img src={iconChevron} />
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
               </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-saturn w-[20px] h-[20px] rounded-full">
-                  {" "}
+            </Link>
+            <Link to="venus">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-venus w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">Venus</p>
                 </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Saturn</p>
-              </div>
-              <div className="">
-                <img src={iconChevron} />
-              </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-uranus w-[20px] h-[20px] rounded-full">
-                  {" "}
+                <div className="">
+                  <img src={iconChevron} />
                 </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Uranus</p>
               </div>
-              <div className="">
-                <img src={iconChevron} />
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
               </div>
-            </div>
-            <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-              {" "}
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <div className="bg-neptune w-[20px] h-[20px] rounded-full">
-                  {" "}
+            </Link>
+            <Link to="earth">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-earth w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">Earth</p>
                 </div>
-                <p className="uppercase ml-[1.5625rem] text-[#fff]">Neptune</p>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
               </div>
-              <div className="">
-                <img src={iconChevron} />
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
               </div>
-            </div>
+            </Link>
+            <Link to="mars">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-mars w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">Mars</p>
+                </div>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
+              </div>
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
+              </div>
+            </Link>
+            <Link to="jupiter">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-jupiter w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">
+                    Jupiter
+                  </p>
+                </div>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
+              </div>
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
+              </div>
+            </Link>
+            <Link to="saturn">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-saturn w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">Saturn</p>
+                </div>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
+              </div>
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
+              </div>
+            </Link>
+            <Link to="uranus">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-uranus w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">Uranus</p>
+                </div>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
+              </div>
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
+              </div>
+            </Link>
+            <Link to="neptune">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="bg-neptune w-[20px] h-[20px] rounded-full">
+                    {" "}
+                  </div>
+                  <p className="uppercase ml-[1.5625rem] text-[#fff]">
+                    Neptune
+                  </p>
+                </div>
+                <div className="">
+                  <img src={iconChevron} />
+                </div>
+              </div>
+              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
+                {" "}
+              </div>
+            </Link>
           </div>
         ) : (
           ""
