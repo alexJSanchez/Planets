@@ -1,10 +1,10 @@
 import "../App.css";
-import { geologyEarth } from "../assets/addImages";
+import { iconHamburger } from "../assets/addImages";
 function Nav() {
   return (
-    <div className="">
+    <div className="px-6 py-4">
       <p className="uppercase">The Plantes </p>
-      <img src={geologyEarth} alt="geologyEarth" />
+      <img src={iconHamburger} className="bg-white" alt="geologyEarth" />
     </div>
   );
 }
