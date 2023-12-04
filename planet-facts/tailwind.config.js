@@ -24,6 +24,10 @@ module.exports = {
       backgroundImage: {
         backgroundStars: "url('/src/assets/planet-mars.svg')",
       },
+      screens: {
+        tablet: "48rem",
+        desktop: "90rem",
+      },
     },
   },
   plugins: [],
