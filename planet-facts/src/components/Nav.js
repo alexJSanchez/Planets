@@ -1,7 +1,9 @@
 import "../App.css";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { iconHamburger } from "../assets/addImages";
 function Nav() {
+  const [dropDown, SetDropDown] = useState(false);
   return (
     <div className="flex justify-between tablet:flex-col desktop:flex-row text-center items-center tablet:items-stretch desktop:items-center bg-mysteriousDepth px-6 tablet:px-[3.1875rem] py-4 tablet:pb-[1.6875rem] tablet:pt-[2rem] desktop:py-[2rem]">
       <p className="uppercase text-[#fff] font-antonio text-[1.75rem] tracking-[-0.0656rem] tablet:pb-[2.4375rem] desktop:pb-0">
