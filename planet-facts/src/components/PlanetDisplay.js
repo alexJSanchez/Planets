@@ -2,7 +2,7 @@ import ButtonOne from "./buttonOne";
 function PlanetDisplay(props) {
 	return (
 		<div className="text-[#fff]">
-			<div className="flex justify-center items-center pt-[5.9375rem] pb-[6.125rem] tablet:px-[292px] px-[8.25rem]">
+			<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[9.125rem] pb-[6.125rem] tablet:pb-[8.125rem] tablet:px-[292px] px-[8.25rem]">
 				<img src={props.planetImg} />
 			</div>
 			<div className="flex flex-col tablet:flex-row tablet:justify-center items-center text-center tablet:text-left px-[1.5rem] tablet:px-[39px]">
