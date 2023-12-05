@@ -17,6 +17,7 @@ module.exports = {
       hokkaidoLavender: "#6f2ed6",
       fairyTaleBlue: "#419EBB",
     },
+
     fontFamily: {
       antonio: "Antonio",
       leagueSpartan: "League Spartan",
@@ -28,6 +29,12 @@ module.exports = {
       screens: {
         tablet: "48rem",
         desktop: "90rem",
+      },
+      spacing: {
+        buttonOneTop: "8px",
+        buttonOneBottom: "7px",
+        buttonOneRight: "161px",
+        buttonOneLeft: "20px",
       },
     },
   },
