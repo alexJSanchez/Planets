@@ -35,6 +35,7 @@ module.exports = {
         buttonOneBottom: "7px",
         buttonOneRight: "161px",
         buttonOneLeft: "20px",
+        buttonTwoRight: "87px",
       },
     },
   },

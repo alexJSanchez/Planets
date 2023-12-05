@@ -5,7 +5,7 @@ function PlanetDisplay(props) {
       <div className="flex justify-center items-center pt-[5.9375rem] pb-[6.125rem] tablet:px-[292px] px-[8.25rem]">
         <img src={props.planetImg} />
       </div>
-      <div className="flex flex-col tablet:flex-row gap-[64px] tablet:justify-center items-center text-center px-[1.5rem] ">
+      <div className="flex flex-col tablet:flex-row gap-[64px] tablet:justify-center items-center text-center tablet:text-left px-[1.5rem] tablet:px-[39px]">
         <div className="">
           <div>
             <h2 className="text-[2.5rem] uppercase font-antonio mb-4">
@@ -26,7 +26,7 @@ function PlanetDisplay(props) {
             </a>
           </div>
         </div>
-        <div>
+        <div className="flex flex-col gap-4 ">
           <ButtonOne
             number="01"
             text="overview"
@@ -34,6 +34,8 @@ function PlanetDisplay(props) {
             marginRight="10.0625rem"
             marginLeft="1.25rem"
           />
+          <ButtonOne number="02" text="Internal Structure" />
+          <ButtonOne number="01" text="Surface Geology" />
         </div>
       </div>
     </div>
