@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import { Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
-import Mercury from "./components/Mercury";
+import Mercury from "./pages/Mercury";
 import "./App.css";
 import "./index.css";
 
