@@ -1,8 +1,8 @@
 function ButtonOne() {
   return (
-    <button className="hidden tablet:flex text-[#fff] px-3 text-[12px] font-bold font-leagueSpartan leading-[25px] tracking-[0.1607rem] uppercase opacity-50">
-      <p className="">01</p>
-      <p>Button</p>
+    <button className="hidden tablet:flex border text-[#fff] text-[0.75rem] font-bold font-leagueSpartan leading-[1.5625rem] tracking-[0.1607rem] uppercase">
+      <p className="opacity-50 ml-[1.75rem] mr-[1.75rem] ">01</p>
+      <p className="opacity-100 mr-[13.0625rem]">Button</p>
     </button>
   );
 }
