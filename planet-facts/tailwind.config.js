@@ -15,6 +15,7 @@ module.exports = {
       uranus: "#65F0D5",
       neptune: "#497EFA",
       hokkaidoLavender: "#6f2ed6",
+      fairyTaleBlue: "#419EBB",
     },
     fontFamily: {
       antonio: "Antonio",
