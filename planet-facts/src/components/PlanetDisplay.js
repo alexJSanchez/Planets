@@ -8,8 +8,18 @@ function PlanetDisplay(props) {
 	};
 	return (
 		<div className="text-[#fff] desktop:flex">
-			<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[9.125rem] pb-[6.125rem] tablet:pb-[8.125rem] tablet:px-[292px] px-[8.25rem]">
-				<img src={props.planetImg} className="" />
+			<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[7.5rem] pb-[6.125rem] tablet:pb-[12.5rem] tablet:px-[292px] px-[8.25rem]">
+				<img src={props.planetImg} className="tablet:hidden" />
+				{checkButton == "overview" ? (
+					<img src={props.planetImg} className="hidden tablet:block" />
+				) : checkButton == "Internal Structure" ? (
+					<img src={props.planetInternalImg} className="hidden tablet:block" />
+				) : (
+					<div className="hidden tablet:block relative">
+						<img src={props.planetImg} />
+						<img className="absolute top-20" src={props.planetGeologyImg} />
+					</div>
+				)}
 			</div>
 			<div className="flex flex-col tablet:flex-row desktop:flex-col tablet:justify-center items-center text-center tablet:text-left px-[1.5rem] tablet:px-[39px]">
 				<div className="">
