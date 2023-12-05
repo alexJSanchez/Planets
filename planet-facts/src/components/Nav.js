@@ -47,11 +47,11 @@ function Nav() {
         </div>
 
         {dropDown ? (
-          <div className="absolute uppercase flex flex-col w-full justify-between bg-mysteriousDepth text-[15px] px-6 font-bold left-0 top-[calc(100% + 0.25rem)] border-b-2 border-[#fff] border-opacity-20 w-full pt-[2.875rem] px-4 pb-[1.25rem]  ">
+          <div className="absolute uppercase flex tablet:hidden flex-col w-full justify-between text-[15px] px-6 font-bold left-0 top-[calc(100% + 0.25rem)] pt-[2.875rem] px-4 pb-[1.25rem]  ">
             <Link to="/mercury">
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
-                  <div className="bg-[#fff] w-[20px] h-[20px] rounded-full">
+                  <div className="bg-[#DEF4FC] w-[20px] h-[20px] rounded-full">
                     {" "}
                   </div>
                   <p className="uppercase ml-[1.5625rem] text-[#fff]">
@@ -178,16 +178,12 @@ function Nav() {
                   <img src={iconChevron} />
                 </div>
               </div>
-              <div className="h-[1px] w-full bg-[#fff] opacity-20 my-[1.25rem]">
-                {" "}
-              </div>
             </Link>
           </div>
         ) : (
           ""
         )}
       </div>
-
       <div className="h-[1px] w-full bg-[#fff] opacity-20"> </div>
     </div>
   );

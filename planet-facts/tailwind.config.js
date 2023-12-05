@@ -6,7 +6,7 @@ module.exports = {
       mysteriousDepth: "#070724",
       carbonBlue: "#38384F",
       formalAffair: "#838391",
-      mercury: "#419EBB",
+      mercury: "#DEF4FC",
       venus: "#EDA249",
       earth: "#6D2ED5",
       mars: "#D14C32",

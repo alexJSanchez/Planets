@@ -10,7 +10,7 @@ function App() {
     <div className="bg-backgroundStars bg-mysteriousDepth bg-contain fixed top-0 left-0 w-full h-full ">
       <Nav />
       <Routes>
-        <Route path="/" element={<Mercury />} />
+        <Route path="/mercury" element={<Mercury />} />
       </Routes>
     </div>
   );
