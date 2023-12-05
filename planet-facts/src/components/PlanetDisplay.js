@@ -1,3 +1,4 @@
+import ButtonOne from "./buttonOne";
 function PlanetDisplay(props) {
   return (
     <div className="text-[#fff]">
@@ -25,8 +26,8 @@ function PlanetDisplay(props) {
             </a>
           </div>
         </div>
-        <div>
-          <div></div>
+        <div className="">
+          <ButtonOne />
         </div>
       </div>
     </div>
