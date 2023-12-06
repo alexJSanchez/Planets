@@ -163,6 +163,60 @@ const data = {
 			geology: "./assets/geology-saturn.png",
 		},
 	},
+	uranus: {
+		name: "uranus",
+		overview: {
+			content:
+				"Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+			source: "https://en.wikipedia.org/wiki/Uranus",
+		},
+		structure: {
+			content:
+				"The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.",
+			source: "https://en.wikipedia.org/wiki/Uranus#Internal_structure",
+		},
+		geology: {
+			content:
+				"The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
+			source: "https://en.wikipedia.org/wiki/Uranus#Atmosphere",
+		},
+		rotation: "17.2 Hours",
+		revolution: "84 Years",
+		radius: "25,362 KM",
+		temperature: "-195°c",
+		images: {
+			planet: "./assets/planet-uranus.svg",
+			internal: "./assets/planet-uranus-internal.svg",
+			geology: "./assets/geology-uranus.png",
+		},
+	},
+	neptune: {
+		name: "neptune",
+		overview: {
+			content:
+				"Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.",
+			source: "https://en.wikipedia.org/wiki/Neptune",
+		},
+		structure: {
+			content:
+				"Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.",
+			source: "https://en.wikipedia.org/wiki/Neptune#Internal_structure",
+		},
+		geology: {
+			content:
+				"Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
+			source: "https://en.wikipedia.org/wiki/Neptune#Atmosphere",
+		},
+		rotation: "16.08 Hours",
+		revolution: "164.79 Years",
+		radius: "24,622 KM",
+		temperature: "-201°c",
+		images: {
+			planet: "./assets/planet-neptune.svg",
+			internal: "./assets/planet-neptune-internal.svg",
+			geology: "./assets/geology-neptune.png",
+		},
+	},
 };
 export default data;
 // [
