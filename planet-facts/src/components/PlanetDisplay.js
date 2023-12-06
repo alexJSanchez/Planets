@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ButtonOne from "./buttonOne";
 import Informartion from "./information";
+import MobileOverview from "./mobileOverview";
 function PlanetDisplay(props) {
 	const [checkButton, setButtonCheck] = useState("overview");
 

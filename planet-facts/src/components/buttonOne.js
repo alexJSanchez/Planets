@@ -1,5 +1,4 @@
 function ButtonOne(props) {
-	let elementStyle = "bg-[" + props.planetColor + "]";
 	return (
 		<button
 			id={props.text}

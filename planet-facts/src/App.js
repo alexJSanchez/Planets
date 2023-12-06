@@ -13,7 +13,7 @@ import "./index.css";
 
 function App() {
 	return (
-		<div className="bg-backgroundStars bg-mysteriousDepth bg-contain top-0 left-0 w-full h-full ">
+		<div className="bg-backgroundStars bg-mysteriousDepth bg-contain top-0 left-0 w-full h-screen">
 			<Nav />
 			<Routes>
 				<Route path="/" element={<Mercury />} />
