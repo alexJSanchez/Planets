@@ -70,16 +70,19 @@ function PlanetDisplay(props) {
 						<ButtonOne
 							number="01"
 							text="overview"
+							btnStyle={props.planetBtnStyle}
 							buttonCheck={handleButtonCheck}
 						/>
 						<ButtonOne
 							number="02"
 							text="Internal Structure"
+							btnStyle={props.planetBtnStyle}
 							buttonCheck={handleButtonCheck}
 						/>
 						<ButtonOne
 							number="01"
 							text="Surface Geology"
+							btnStyle={props.planetBtnStyle}
 							buttonCheck={handleButtonCheck}
 						/>
 					</div>
