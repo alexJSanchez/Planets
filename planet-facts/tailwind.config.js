@@ -28,6 +28,7 @@ module.exports = {
 			},
 			screens: {
 				tablet: "48rem",
+				laptop: "64rem",
 				desktop: "90rem",
 			},
 			spacing: {
