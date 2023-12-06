@@ -1,4 +1,4 @@
-function Informartion() {
+function Informartion(props) {
 	return (
 		<div className="hidden text-[#fff] pb-[2.25rem] desktop:pb-[3.5rem] tablet:grid tablet:grid-cols-4 tablet:gap-[0.6875rem] desktop:gap-[1.875rem] px-[2.4375rem] desktop:px-[10.3125rem]">
 			<div className="custom-div pt-[1rem] pb-[1.1875rem] pl-[0.9375rem]">
@@ -6,7 +6,7 @@ function Informartion() {
 					Rotation
 				</p>
 				<p className="font-antonio text-[1.5rem] leading-[-0.05625rem] uppercase">
-					58.6days
+					{props.rotation}
 				</p>
 			</div>
 			<div className="custom-div border pt-[1rem] pb-[1.1875rem] pl-[0.9375rem]">
@@ -14,7 +14,7 @@ function Informartion() {
 					REVOLUTION TIME
 				</p>
 				<p className="font-antonio text-[1.5rem] leading-[-0.05625rem] uppercase">
-					87.97 days
+					{props.revolution}
 				</p>
 			</div>
 			<div className="custom-div border pt-[1rem] pb-[1.1875rem] pl-[0.9375rem]">
@@ -22,7 +22,7 @@ function Informartion() {
 					radius
 				</p>
 				<p className="font-antonio text-[1.5rem] leading-[-0.05625rem] uppercase">
-					2,439.7 km
+					{props.radius}
 				</p>
 			</div>
 			<div className="custom-div border pt-[1rem] pb-[1.1875rem] pl-[0.9375rem]">
@@ -30,7 +30,7 @@ function Informartion() {
 					AVERAGE TEMP
 				</p>
 				<p className="font-antonio text-[1.5rem] leading-[-0.05625rem] uppercase">
-					430°c
+					{props.temperature}
 				</p>
 			</div>
 		</div>

@@ -21,6 +21,10 @@ function Venus() {
 				planetSummary={data.venus.overview.content}
 				planetInternalSummary={data.venus.structure.content}
 				planetGeologySummary={data.venus.geology.content}
+				rotation={data.venus.rotation}
+				revTime={data.venus.revolution}
+				radius={data.venus.radius}
+				temp={data.venus.temperature}
 			/>
 		</div>
 	);

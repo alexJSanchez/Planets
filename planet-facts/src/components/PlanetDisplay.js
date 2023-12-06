@@ -88,7 +88,12 @@ function PlanetDisplay(props) {
 					</div>
 				</div>
 			</div>
-			<Informartion />
+			<Informartion
+				rotation={props.rotation}
+				revolution={props.revTime}
+				radius={props.radius}
+				temperature={props.temp}
+			/>
 		</div>
 	);
 }
