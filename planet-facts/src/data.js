@@ -1,32 +1,113 @@
 const data = {
-  mercury: {
-    name: "Mercury",
-    overview: {
-      content:
-        "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
-      source: "https://en.wikipedia.org/wiki/Mercury_(planet)",
-    },
-    structure: {
-      content:
-        "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",
-      source:
-        "https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure",
-    },
-    geology: {
-      content:
-        "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
-      source: "https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology",
-    },
-    rotation: "58.6 Days",
-    revolution: "87.97 Days",
-    radius: "2,439.7 KM",
-    temperature: "430°c",
-    images: {
-      planet: "./assets/planet-mercury.svg",
-      internal: "./assets/planet-mercury-internal.svg",
-      geology: "./assets/geology-mercury.png",
-    },
-  },
+	mercury: {
+		name: "Mercury",
+		overview: {
+			content:
+				"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
+			source: "https://en.wikipedia.org/wiki/Mercury_(planet)",
+		},
+		structure: {
+			content:
+				"Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",
+			source:
+				"https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure",
+		},
+		geology: {
+			content:
+				"Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
+			source: "https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology",
+		},
+		rotation: "58.6 Days",
+		revolution: "87.97 Days",
+		radius: "2,439.7 KM",
+		temperature: "430°c",
+		images: {
+			planet: "./assets/planet-mercury.svg",
+			internal: "./assets/planet-mercury-internal.svg",
+			geology: "./assets/geology-mercury.png",
+		},
+	},
+	venus: {
+		name: "Venus",
+		overview: {
+			content:
+				"Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+			source: "https://en.wikipedia.org/wiki/Venus",
+		},
+		structure: {
+			content:
+				"The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.",
+			source: "https://en.wikipedia.org/wiki/Venus#Internal_structure",
+		},
+		geology: {
+			content:
+				"Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.",
+			source: "https://en.wikipedia.org/wiki/Venus#Surface_geology",
+		},
+		rotation: "243 Days",
+		revolution: "224.7 Days",
+		radius: "6,051.8 KM",
+		temperature: "471°c",
+		images: {
+			planet: "./assets/planet-venus.svg",
+			internal: "./assets/planet-venus-internal.svg",
+			geology: "./assets/geology-venus.png",
+		},
+	},
+	earth: {
+		name: "earth",
+		overview: {
+			content:
+				"Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
+			source: "https://en.wikipedia.org/wiki/Earth",
+		},
+		structure: {
+			content:
+				"Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
+			source: "https://en.wikipedia.org/wiki/Earth#Internal_structure",
+		},
+		geology: {
+			content:
+				"The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
+			source: "https://en.wikipedia.org/wiki/Earth#Surface",
+		},
+		rotation: "0.99 Days",
+		revolution: "365.26 Days",
+		radius: "6,371 KM",
+		temperature: "16°c",
+		images: {
+			planet: "./assets/planet-earth.svg",
+			internal: "./assets/planet-earth-internal.svg",
+			geology: "./assets/geology-earth.png",
+		},
+	},
+	mars: {
+		name: "mars",
+		overview: {
+			content:
+				'Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".',
+			source: "https://en.wikipedia.org/wiki/Mars",
+		},
+		structure: {
+			content:
+				"Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.",
+			source: "https://en.wikipedia.org/wiki/Mars#Internal_structure",
+		},
+		geology: {
+			content:
+				"Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.",
+			source: "https://en.wikipedia.org/wiki/Mars#Surface_geology",
+		},
+		rotation: "1.03 Days",
+		revolution: "1.88 Years",
+		radius: "3,389.5 KM",
+		temperature: "-28°c",
+		images: {
+			planet: "./assets/planet-mars.svg",
+			internal: "./assets/planet-mars-internal.svg",
+			geology: "./assets/geology-mars.png",
+		},
+	},
 };
 export default data;
 // [

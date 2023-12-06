@@ -10,7 +10,7 @@ function PlanetDisplay(props) {
 	return (
 		<div>
 			<div className="text-[#fff] desktop:flex justify-center desktop:pt-[126px] pb-[5.4375rem] desktop:gap-[299px] desktop:px-[165px]">
-				<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[7.5rem] pb-[6.125rem] tablet:pb-[12.5rem] tablet:px-[292px] desktop:px-0 desktop:py-0">
+				<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[7.5rem] pb-[6.125rem] tablet:pb-[12.5rem] px-[112px] tablet:px-[292px] desktop:px-0 desktop:py-0">
 					<img src={props.planetImg} className="tablet:hidden " />
 					{checkButton == "overview" ? (
 						<img

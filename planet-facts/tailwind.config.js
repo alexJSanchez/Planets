@@ -27,6 +27,7 @@ module.exports = {
 				backgroundStars: "url('/src/assets/background-stars.svg')",
 			},
 			screens: {
+				mobile: "23.4375rem",
 				tablet: "48rem",
 				laptop: "64rem",
 				desktop: "90rem",
