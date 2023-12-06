@@ -21,6 +21,10 @@ function Mercury() {
 				planetSummary={data.mercury.overview.content}
 				planetInternalSummary={data.mercury.structure.content}
 				planetGeologySummary={data.mercury.geology.content}
+				rotation={data.mercury.rotation}
+				revTime={data.mercury.revolution}
+				radius={data.mercury.radius}
+				temp={data.mercury.temperature}
 			/>
 		</div>
 	);

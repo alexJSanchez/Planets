@@ -21,6 +21,10 @@ function Earth() {
 				planetSummary={data.earth.overview.content}
 				planetInternalSummary={data.earth.structure.content}
 				planetGeologySummary={data.earth.geology.content}
+				rotation={data.earth.rotation}
+				revTime={data.earth.revolution}
+				radius={data.earth.radius}
+				temp={data.earth.temperature}
 			/>
 		</div>
 	);

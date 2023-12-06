@@ -4,6 +4,8 @@ import Mercury from "./pages/Mercury";
 import Venus from "./pages/Venus";
 import Earth from "./pages/Earth";
 import Mars from "./pages/Mars";
+import Jupiter from "./pages/Jupiter";
+import Saturn from "./pages/Saturn";
 import "./App.css";
 import "./index.css";
 
@@ -17,6 +19,8 @@ function App() {
 				<Route path="venus" element={<Venus />} />
 				<Route path="earth" element={<Earth />} />
 				<Route path="mars" element={<Mars />} />
+				<Route path="Jupiter" element={<Jupiter />} />
+				<Route path="saturn" element={<Saturn />} />
 			</Routes>
 		</div>
 	);
