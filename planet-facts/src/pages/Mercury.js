@@ -14,7 +14,7 @@ function Mercury() {
 			<PlanetDisplay
 				planet={data.mercury.name}
 				planetImg={planetMercury}
-				planetBtnStyle="tablet:flex items-center hover:bg-carbonBlue focus:bg-fairyTaleBlue border border-opacity-20 pt-buttonOneTop pb-buttonOneBottom text-[#fff] text-[0.75rem] font-leagueSpartan leading-[1.5625rem] tracking-[0.1607rem] uppercase"
+				planetBtnStyle="hidden tablet:flex items-center hover:bg-carbonBlue focus:bg-fairyTaleBlue border border-opacity-20 pt-buttonOneTop pb-buttonOneBottom text-[#fff] text-[0.75rem] font-leagueSpartan leading-[1.5625rem] tracking-[0.1607rem] uppercase"
 				planetSource={data.mercury.overview.source}
 				planetInternalImg={planetMercuryInternal}
 				planetGeologyImg={geologyMercury}
