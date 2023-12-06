@@ -40,7 +40,13 @@ function PlanetDisplay(props) {
 							{props.planet}
 						</h2>
 						<p className="text-[0.6875rem] desktop:text-[14px] leading-[1.375rem] font-leagueSpartan pb-8 tablet:pt-6 ">
-							{props.planetSummary}
+							{checkButton == "overview" ? (
+								<p>{props.planetSummary}</p>
+							) : checkButton == "Internal Structure" ? (
+								<p>{props.planetInternalSummary}</p>
+							) : checkButton == "Surface Geology" ? (
+								<p className="">{props.planetGeologySummary}</p>
+							) : null}
 						</p>
 					</div>
 					<div className="flex">
