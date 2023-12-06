@@ -12,8 +12,8 @@
 		animation: App-logo-spin infinite 20s linear;
 	}
 }
-.custom-border {
-	border: 1px solid rgba(0, 0, 0, 1); /* Adjust the RGB values and opacity as needed */
+.custom-div {
+	border: 2px solid rgba(250, 250, 250, 0.5); /* Adding a border of 2px in solid black */
 }
 .App-header {
 	background-color: #282c34;
