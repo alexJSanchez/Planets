@@ -18,6 +18,7 @@ function Mercury() {
 				planetInternalImg={planetMercuryInternal}
 				planetGeologyImg={geologyMercury}
 				planetSummary={data.mercury.overview.content}
+				planetInternalSummary={data.mercury.structure.content}
 			/>
 		</div>
 	);
