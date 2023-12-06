@@ -25,6 +25,8 @@ function Neptune() {
 				revTime={data.neptune.revolution}
 				radius={data.neptune.radius}
 				temp={data.neptune.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[13.75rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[6.3125rem] py-[4rem] tablet:px-[15.0625rem] tablet:pt-[6.125rem] tablet:pb-[4.9375rem] desktop:px-0 "
 			/>
 		</div>
 	);

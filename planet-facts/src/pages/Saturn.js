@@ -25,6 +25,8 @@ function Saturn() {
 				revTime={data.saturn.revolution}
 				radius={data.saturn.radius}
 				temp={data.saturn.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[7rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[61px] py-[1.5rem] tablet:px-[11.25rem] tablet:pt-[1.6875rem] tablet:pb-[0.375rem] desktop:px-0 "
 			/>
 		</div>
 	);

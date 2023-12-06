@@ -25,6 +25,8 @@ function Uranus() {
 				revTime={data.uranus.revolution}
 				radius={data.uranus.radius}
 				temp={data.uranus.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[9.375rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[6.25rem] py-[3.9375rem] tablet:px-[14.875rem] tablet:pt-[5.8125rem] tablet:pb-[4.8125rem] desktop:px-0 "
 			/>
 		</div>
 	);

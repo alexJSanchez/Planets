@@ -25,6 +25,8 @@ function Earth() {
 				revTime={data.earth.revolution}
 				radius={data.earth.radius}
 				temp={data.earth.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[12.125rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[6.3125rem] py-[4rem] tablet:px-[15.125rem] tablet:pt-[5rem] tablet:pb-[3.9375rem] desktop:px-0 "
 			/>
 		</div>
 	);

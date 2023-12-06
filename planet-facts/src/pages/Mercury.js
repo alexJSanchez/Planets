@@ -25,6 +25,8 @@ function Mercury() {
 				revTime={data.mercury.revolution}
 				radius={data.mercury.radius}
 				temp={data.mercury.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[15.625rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[8.25rem] py-[6.125rem] tablet:px-[18.1875rem] tablet:pt-[9.125rem] tablet:pb-[8.125rem] desktop:px-0"
 			/>
 		</div>
 	);

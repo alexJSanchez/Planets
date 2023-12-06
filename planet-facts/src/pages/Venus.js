@@ -25,6 +25,8 @@ function Venus() {
 				revTime={data.venus.revolution}
 				radius={data.venus.radius}
 				temp={data.venus.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[9.375rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[6.9375rem] py-[4.625rem] tablet:px-[16.0625rem] tablet:pt-[7rem] tablet:pb-[5.9375rem] desktop:px-0 "
 			/>
 		</div>
 	);

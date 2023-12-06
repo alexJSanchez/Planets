@@ -9,31 +9,27 @@ function PlanetDisplay(props) {
 	};
 	return (
 		<div>
-			<div className="text-[#fff] desktop:flex justify-center desktop:pt-[126px] pb-[5.4375rem] desktop:gap-[299px] desktop:px-[165px]">
-				<div className="flex justify-center items-center pt-[5.9375rem] tablet:pt-[7.5rem] pb-[6.125rem] tablet:pb-[12.5rem] px-[112px] tablet:px-[292px] desktop:px-0 desktop:py-0">
+			<div className={`${props.mainClass}`}>
+				<div className={`${props.mainImgClass}`}>
 					<img src={props.planetImg} className="tablet:hidden " />
 					{checkButton == "overview" ? (
 						<img
 							src={props.planetImg}
 							alt={props.planet}
-							className="hidden tablet:block desktop:max-w-[290px] desktop:max-h-[290px]"
+							className="hidden tablet:block "
 						/>
 					) : checkButton == "Internal Structure" ? (
 						<img
 							src={props.planetInternalImg}
 							alt={props.planet}
-							className="hidden tablet:block desktop:max-w-[290px] desktop:max-h-[290px]"
+							className="hidden tablet:block "
 						/>
 					) : (
 						<div className="hidden tablet:block relative">
-							<img
-								src={props.planetImg}
-								alt={props.planet}
-								className="desktop:max-w-[290px] desktop:max-h-[290px]"
-							/>
+							<img src={props.planetImg} alt={props.planet} className="" />
 							<img
 								alt={props.planet}
-								className="absolute top-[230px] tablet:top-[220px] laptop:top-[300px]  inset-1/2 -translate-x-1/2 -translate-y-1/2 tablet:max-w-[158px] tablet:max-h-[165px]"
+								className="absolute top-[230px] tablet:top-[220px] laptop:top-[300px]  inset-1/2 -translate-x-1/2 -translate-y-1/2 "
 								src={props.planetGeologyImg}
 							/>
 						</div>
@@ -42,7 +38,7 @@ function PlanetDisplay(props) {
 				<div className="tablet:mb-[27px] flex flex-col tablet:flex-row desktop:flex-col tablet:justify-center items-center text-center tablet:text-left px-[1.5rem] tablet:px-[2.4375rem] desktop:px-0 desktop:max-w-[350px]">
 					<div className="">
 						<div className="tablet:pr-16 desktop:pr-0">
-							<h2 className="text-[2.5rem] desktop:text-[80px] uppercase font-antonio pb-4 ">
+							<h2 className="text-[2.5rem] tablet:text-[3rem] desktop:text-[5rem] uppercase font-antonio pb-4 ">
 								{props.planet}
 							</h2>
 							<p className="text-[0.6875rem] desktop:text-[14px] leading-[1.375rem] font-leagueSpartan pb-8 tablet:pt-6 ">

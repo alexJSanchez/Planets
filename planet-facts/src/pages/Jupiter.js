@@ -25,6 +25,8 @@ function Jupiter() {
 				revTime={data.jupiter.revolution}
 				radius={data.jupiter.radius}
 				temp={data.jupiter.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[9.5625rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[4.75rem] py-[3rem] tablet:px-[12.125rem] tablet:pt-[3.375rem] tablet:pb-[2.3125rem] desktop:px-0 "
 			/>
 		</div>
 	);

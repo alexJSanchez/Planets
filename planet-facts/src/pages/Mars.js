@@ -25,6 +25,8 @@ function Mars() {
 				revTime={data.mars.revolution}
 				radius={data.mars.radius}
 				temp={data.mars.temperature}
+				mainClass="text-[#fff] desktop:flex justify-center desktop:pt-[7.875rem] pb-[5.4375rem] desktop:gap-[16.25rem] desktop:px-[10.3125rem]"
+				mainImgClass="flex justify-center items-center px-[7.75rem] py-[5.4375rem] tablet:px-[17.3125rem] tablet:pt-[8.25rem] tablet:pb-[9.6875rem] desktop:px-0 "
 			/>
 		</div>
 	);
